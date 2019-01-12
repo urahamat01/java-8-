@@ -1,5 +1,5 @@
 
-
+import java.util.Arrays;
 
 public class Array62{
 	public static void main (String[] args) {
@@ -17,7 +17,7 @@ public class Array62{
 		
 		Arrays.sort(number);
 		
-		System.out.print(" Assending=");
+		System.out.print(" Ascending= ");
 			
 		
 		for (int i = 0; i<5; i++) {
@@ -30,7 +30,7 @@ public class Array62{
 		System.out.print( );
 			
 		
-		System.out.print(" Assending=");
+		System.out.print(" Descending=");
 			
 		
 		for (int i = 4; i >= 10; i++) {
@@ -46,13 +46,13 @@ public class Array62{
 			
 			
 		String[] names = {"ullah", "rahamat", "ullah", "repon", "rony"};
-		Arrays.sort(numes);
+		Arrays.sort(names);
 		
 		
 		
 		for(int i=0; i<4; i++) {
 			
-			Ststem.out.print(numbes[i] + " " );
+			Stystem.out.print(numbes[i] + " " );
 			
 			
 		}
