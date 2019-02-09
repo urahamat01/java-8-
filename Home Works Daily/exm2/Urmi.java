@@ -1,6 +1,8 @@
 
 
 public class Urmi implements Runnable {
+	
+	//first class 
     
     int i;
     
@@ -13,7 +15,9 @@ public class Urmi implements Runnable {
                 break;
             }
             try {
+				
                 Thread.sleep(10);
+				
             } catch (Exception e) {
             }
         }
